@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,*::after,*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inika', serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #ffffff;
+  background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+h1, h6 {
+  font-family: 'Concert One', cursive, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1024px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: 110vh;
+  margin-bottom: 0;
+}
+
+.main__image {
+  width: 446px;
+  border-radius: 7px;
+}
+
+.image__item {
+  border-radius: 7px;
+}
+
+.main__title {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 2px;
+  color: #000000;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: overline;
+  padding: 30px 0 15px;
+  background-color: rgba(255, 255, 255, .6);
+  border-radius: 7px;
+}
+
+.main__info {
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 7px;
+  box-shadow: rgba(80, 80, 80, .7) 5px 8px 0;
+
+  background-color:rgba(0, 0, 0, .8);
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.section__wrapper {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  padding-left: 45px;
+}
+
+.info__title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.info__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info__item {
+  margin: 0;
+  padding: 0;
+  padding: 5px;
+}
+
+.info__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.info__link:hover {
+  text-decoration: underline;
+  color: #20ca2e;
+  text-shadow: rgb(255, 255, 255) 5px 5px 15px;
+}
