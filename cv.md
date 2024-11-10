@@ -22,3 +22,11 @@ I am driven by a passion for web application development and a continuous pursui
 ⭐ ⭐ ⭐
 
 Let's connect to explore how we can collaborate on future projects and drive technological advancements together.
+
+## __Top skills:__
+
+- Angular
+- TypeScript
+- RxJS
+- JavaScript
+- Ionic Framework
