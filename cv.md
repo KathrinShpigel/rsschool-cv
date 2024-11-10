@@ -38,3 +38,45 @@ function josephusSurvivor(n, k){
   return n < 1 ? 1 : (josephusSurvivor(n - 1, k) + --k) % n + 1;
 }
 ```
+
+## __Experience__
+
+### __LC Group (Lime Credit Group)__, Kazakhstan
+
+<span style="color:green">remote</span>
+
+_Senior Frontend Developer_
+
+Jun 2023 - Present
+
+* Refreshed and rebuilt applications in less than 6 months after a freeze from 2019, transitioning to a modern technology stack. This streamlined developer hiring, lowered support costs, and enhanced code reliability. 
+* Led a team of 4 frontend developers, conducted technical interviews, and oversaw project execution, achieving a 30% reduction in development time and maintaining high standards of code quality and feature delivery. 
+* Adopted modular architecture, boosting scalability of applications by 60% and reducing maintenance costs by 15%, allowing for parallel development and enhancing project timelines by 30%. 
+* Automated routine processes using Jira, GitLab, and Rocket, reducing manual work by 60% and enabling developers to focus on coding, thus increasing feature delivery speed by 10% and minimizing human errors. 
+* Created a REST API in Node.js to link CMS with Directus, enhancing content update efficiency and eliminating the need for frequent version releases, saving 100+ hours in development time annually. 
+* Engineered a comprehensive technical debt reduction strategy, cutting code coupling and transitioning from a monorepository to a shared codebase, accelerating new feature deployment by 25%. 
+* Enforced reliable code testing for predictable, fast, and secure development, minimizing production errors and enabling rapid feature deployment. Achieved 100% test coverage for revenue-generating functionality. 
+* Implemented strict static typing with TypeScript typing checks and managed exceptions to reduce production errors by 20%.
+
+### __FINFORT R&D__, Russia
+
+<span style="color:green">remote</span>
+
+_Senior Frontend Developer_
+
+Dec 2021 - Jun 2023
+
+* Enhanced SaaS platform user experience by eliminating unnecessary dependencies and dead code, configuring lazy loading, and implemented Angular best practices, resulting in a 40% improvement in application performance.
+* Led significant code base improvements, reducing bug fix time by 40% and cutting development costs by 20%.
+* Executed unit testing strategy with Jasmine, boosting application stability by 45%, expediting development timelines by 30%, and decreasing production bugs by 50%; incorporated into CI/CD pipelines.
+
+### __KeyAuto__, Russia
+
+<span style="color:green">office</span>
+
+_Middle Frontend Developer_
+
+Nov 2020 - Nov 2021
+
+* Developed and launched KSA application in 4 months. This application automated security guard tasks at auto centers, reducing inventory time and enhancing control.
+* Developed and launched Skera Vision app in 3 months, providing real-time queue updates for car dealership customers and creating a customizable admin panel, improving user experience and brand loyalty.
