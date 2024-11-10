@@ -80,3 +80,8 @@ Nov 2020 - Nov 2021
 
 * Developed and launched KSA application in 4 months. This application automated security guard tasks at auto centers, reducing inventory time and enhancing control.
 * Developed and launched Skera Vision app in 3 months, providing real-time queue updates for car dealership customers and creating a customizable admin panel, improving user experience and brand loyalty.
+
+## __Education__
+
+* South Ural state University [ __SUSU __](https://www.susu.ru/), __2015__ graduation
+  - Specialty: __Economist-analyst__ (080116, mathematical methods in Economics)
