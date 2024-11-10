@@ -30,3 +30,11 @@ Let's connect to explore how we can collaborate on future projects and drive tec
 - RxJS
 - JavaScript
 - Ionic Framework
+
+## __Code examples:__
+
+```JavaScript
+function josephusSurvivor(n, k){
+  return n < 1 ? 1 : (josephusSurvivor(n - 1, k) + --k) % n + 1;
+}
+```
