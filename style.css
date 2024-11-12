@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+header,
+main {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 1.875rem;
+    color: #1a73e8;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1a73e8;
+    margin-top: 1rem;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 0.25rem;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+p,
+li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    overflow-x: auto;
+}
+
+a:focus {
+    outline: 2px solid #1a73e8;
+    outline-offset: 2px;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+header,
+section {
+    padding: 0.5rem;
+}
+
+section > h2 {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p,
+    li {
+        font-size: 0.95rem;
+    }
+}
